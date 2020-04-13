@@ -10,9 +10,11 @@ namespace testForAnton
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("enter number");
+            Console.WriteLine("Enter number"); // Ya napisal s bolshoi bukvi
+
             var number = Console.ReadLine();
             Console.WriteLine($"you enter {number}");
+            
             Console.ReadLine();
         }
     }
